@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .sidebar,
+  .flipcard {
+    overflow-y: hidden;
+  }
+  .main-section {
+    overflow-y: auto; 
+    flex-grow: 1; 
+  }
+  #sidebar {
+    height: 100vh;
+    overflow-y: auto; 
+}
+
+.sidebar-content {
+    padding: 10px;
+}
+
+.sidebar-open #main-content {
+    overflow: hidden;
+}
